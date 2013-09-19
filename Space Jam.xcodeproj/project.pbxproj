@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC0E2DC217E511EA0000E06D /* HBHShipNode.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0E2DC117E511EA0000E06D /* HBHShipNode.m */; };
+		DC0E2DC517E512EB0000E06D /* SKNode+Positioning.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0E2DC417E512EB0000E06D /* SKNode+Positioning.m */; };
+		DC0E2DC817E517870000E06D /* HBHStarNode.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0E2DC717E517870000E06D /* HBHStarNode.m */; };
+		DC0E2DCD17E538030000E06D /* HBHCopShipNode.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0E2DCC17E538030000E06D /* HBHCopShipNode.m */; };
+		DC0E2DCF17E53A420000E06D /* shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = DC0E2DCE17E53A420000E06D /* shadow.png */; };
+		DC0E2DD217E578260000E06D /* HBHDiamondNode.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0E2DD117E578260000E06D /* HBHDiamondNode.m */; };
+		DC0E2DD417E57ABA0000E06D /* diamond.png in Resources */ = {isa = PBXBuildFile; fileRef = DC0E2DD317E57ABA0000E06D /* diamond.png */; };
+		DC0E2DD717E57F450000E06D /* HBHPowerUp.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0E2DD617E57F450000E06D /* HBHPowerUp.m */; };
+		DC0E2DDA17E5919E0000E06D /* HBHAdderallPowerUpNode.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0E2DD917E5919E0000E06D /* HBHAdderallPowerUpNode.m */; };
+		DC0E2DDC17E5F9490000E06D /* jerome.png in Resources */ = {isa = PBXBuildFile; fileRef = DC0E2DDB17E5F9490000E06D /* jerome.png */; };
+		DC0E2DDE17E5FB100000E06D /* heisenberg.png in Resources */ = {isa = PBXBuildFile; fileRef = DC0E2DDD17E5FB100000E06D /* heisenberg.png */; };
+		DC0E2DE017E5FDC80000E06D /* money.png in Resources */ = {isa = PBXBuildFile; fileRef = DC0E2DDF17E5FDC80000E06D /* money.png */; };
+		DC0E2DE217E5FFD20000E06D /* adderall.png in Resources */ = {isa = PBXBuildFile; fileRef = DC0E2DE117E5FFD20000E06D /* adderall.png */; };
+		DC0E2DE517E606440000E06D /* HBHMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0E2DE417E606440000E06D /* HBHMenuScene.m */; };
+		DC0E2DE717E60A010000E06D /* joystixmonospace.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC0E2DE617E60A010000E06D /* joystixmonospace.otf */; };
+		DC0E2DE917E611660000E06D /* scores.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC0E2DE817E611660000E06D /* scores.plist */; };
+		DC0E2DEC17E6150E0000E06D /* HBHHighScoreScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0E2DEB17E6150E0000E06D /* HBHHighScoreScene.m */; };
+		DC0E2DEE17E6298A0000E06D /* BackgroundLoop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC0E2DED17E6298A0000E06D /* BackgroundLoop.mp3 */; };
 		DCFD830217E50D9B00E6F7F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFD830117E50D9B00E6F7F9 /* Foundation.framework */; };
 		DCFD830417E50D9B00E6F7F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFD830317E50D9B00E6F7F9 /* CoreGraphics.framework */; };
 		DCFD830617E50D9B00E6F7F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFD830517E50D9B00E6F7F9 /* UIKit.framework */; };
@@ -14,10 +32,8 @@
 		DCFD830E17E50D9B00E6F7F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCFD830C17E50D9B00E6F7F9 /* InfoPlist.strings */; };
 		DCFD831017E50D9B00E6F7F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFD830F17E50D9B00E6F7F9 /* main.m */; };
 		DCFD831417E50D9B00E6F7F9 /* HBHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFD831317E50D9B00E6F7F9 /* HBHAppDelegate.m */; };
-		DCFD831717E50D9B00E6F7F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFD831517E50D9B00E6F7F9 /* Main.storyboard */; };
 		DCFD831A17E50D9B00E6F7F9 /* HBHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFD831917E50D9B00E6F7F9 /* HBHViewController.m */; };
-		DCFD831D17E50D9B00E6F7F9 /* HBHMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFD831C17E50D9B00E6F7F9 /* HBHMyScene.m */; };
-		DCFD831F17E50D9B00E6F7F9 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFD831E17E50D9B00E6F7F9 /* Spaceship.png */; };
+		DCFD831D17E50D9B00E6F7F9 /* HBHScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFD831C17E50D9B00E6F7F9 /* HBHScene.m */; };
 		DCFD832117E50D9B00E6F7F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCFD832017E50D9B00E6F7F9 /* Images.xcassets */; };
 		DCFD832817E50D9B00E6F7F9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFD832717E50D9B00E6F7F9 /* XCTest.framework */; };
 		DCFD832917E50D9B00E6F7F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFD830117E50D9B00E6F7F9 /* Foundation.framework */; };
@@ -37,27 +53,52 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DCFD82FE17E50D9B00E6F7F9 /* GameJam2013.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameJam2013.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0E2DC017E511EA0000E06D /* HBHShipNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBHShipNode.h; sourceTree = "<group>"; };
+		DC0E2DC117E511EA0000E06D /* HBHShipNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBHShipNode.m; sourceTree = "<group>"; };
+		DC0E2DC317E512DE0000E06D /* SKNode+Positioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+Positioning.h"; sourceTree = "<group>"; };
+		DC0E2DC417E512EB0000E06D /* SKNode+Positioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+Positioning.m"; sourceTree = "<group>"; };
+		DC0E2DC617E517870000E06D /* HBHStarNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBHStarNode.h; sourceTree = "<group>"; };
+		DC0E2DC717E517870000E06D /* HBHStarNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBHStarNode.m; sourceTree = "<group>"; };
+		DC0E2DCB17E538030000E06D /* HBHCopShipNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBHCopShipNode.h; sourceTree = "<group>"; };
+		DC0E2DCC17E538030000E06D /* HBHCopShipNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBHCopShipNode.m; sourceTree = "<group>"; };
+		DC0E2DCE17E53A420000E06D /* shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow.png; sourceTree = "<group>"; };
+		DC0E2DD017E578260000E06D /* HBHDiamondNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBHDiamondNode.h; sourceTree = "<group>"; };
+		DC0E2DD117E578260000E06D /* HBHDiamondNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBHDiamondNode.m; sourceTree = "<group>"; };
+		DC0E2DD317E57ABA0000E06D /* diamond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamond.png; sourceTree = "<group>"; };
+		DC0E2DD517E57F450000E06D /* HBHPowerUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBHPowerUp.h; sourceTree = "<group>"; };
+		DC0E2DD617E57F450000E06D /* HBHPowerUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBHPowerUp.m; sourceTree = "<group>"; };
+		DC0E2DD817E5919E0000E06D /* HBHAdderallPowerUpNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBHAdderallPowerUpNode.h; sourceTree = "<group>"; };
+		DC0E2DD917E5919E0000E06D /* HBHAdderallPowerUpNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBHAdderallPowerUpNode.m; sourceTree = "<group>"; };
+		DC0E2DDB17E5F9490000E06D /* jerome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jerome.png; sourceTree = "<group>"; };
+		DC0E2DDD17E5FB100000E06D /* heisenberg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heisenberg.png; sourceTree = "<group>"; };
+		DC0E2DDF17E5FDC80000E06D /* money.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = money.png; sourceTree = "<group>"; };
+		DC0E2DE117E5FFD20000E06D /* adderall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adderall.png; sourceTree = "<group>"; };
+		DC0E2DE317E606440000E06D /* HBHMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBHMenuScene.h; sourceTree = "<group>"; };
+		DC0E2DE417E606440000E06D /* HBHMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBHMenuScene.m; sourceTree = "<group>"; };
+		DC0E2DE617E60A010000E06D /* joystixmonospace.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = joystixmonospace.otf; sourceTree = "<group>"; };
+		DC0E2DE817E611660000E06D /* scores.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = scores.plist; sourceTree = SOURCE_ROOT; };
+		DC0E2DEA17E6150E0000E06D /* HBHHighScoreScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBHHighScoreScene.h; sourceTree = "<group>"; };
+		DC0E2DEB17E6150E0000E06D /* HBHHighScoreScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBHHighScoreScene.m; sourceTree = "<group>"; };
+		DC0E2DED17E6298A0000E06D /* BackgroundLoop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BackgroundLoop.mp3; sourceTree = "<group>"; };
+		DCFD82FE17E50D9B00E6F7F9 /* Space Jam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Jam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCFD830117E50D9B00E6F7F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DCFD830317E50D9B00E6F7F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		DCFD830517E50D9B00E6F7F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DCFD830717E50D9B00E6F7F9 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
-		DCFD830B17E50D9B00E6F7F9 /* GameJam2013-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameJam2013-Info.plist"; sourceTree = "<group>"; };
+		DCFD830B17E50D9B00E6F7F9 /* Space Jam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Space Jam-Info.plist"; sourceTree = "<group>"; };
 		DCFD830D17E50D9B00E6F7F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DCFD830F17E50D9B00E6F7F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DCFD831117E50D9B00E6F7F9 /* GameJam2013-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GameJam2013-Prefix.pch"; sourceTree = "<group>"; };
+		DCFD831117E50D9B00E6F7F9 /* Space Jam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Space Jam-Prefix.pch"; sourceTree = "<group>"; };
 		DCFD831217E50D9B00E6F7F9 /* HBHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBHAppDelegate.h; sourceTree = "<group>"; };
 		DCFD831317E50D9B00E6F7F9 /* HBHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBHAppDelegate.m; sourceTree = "<group>"; };
-		DCFD831617E50D9B00E6F7F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCFD831817E50D9B00E6F7F9 /* HBHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBHViewController.h; sourceTree = "<group>"; };
 		DCFD831917E50D9B00E6F7F9 /* HBHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBHViewController.m; sourceTree = "<group>"; };
-		DCFD831B17E50D9B00E6F7F9 /* HBHMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBHMyScene.h; sourceTree = "<group>"; };
-		DCFD831C17E50D9B00E6F7F9 /* HBHMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBHMyScene.m; sourceTree = "<group>"; };
-		DCFD831E17E50D9B00E6F7F9 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		DCFD831B17E50D9B00E6F7F9 /* HBHScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBHScene.h; sourceTree = "<group>"; };
+		DCFD831C17E50D9B00E6F7F9 /* HBHScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBHScene.m; sourceTree = "<group>"; };
 		DCFD832017E50D9B00E6F7F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		DCFD832617E50D9B00E6F7F9 /* GameJam2013Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameJam2013Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFD832617E50D9B00E6F7F9 /* Space JamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space JamTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCFD832717E50D9B00E6F7F9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		DCFD832F17E50D9B00E6F7F9 /* GameJam2013Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameJam2013Tests-Info.plist"; sourceTree = "<group>"; };
+		DCFD832F17E50D9B00E6F7F9 /* Space JamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Space JamTests-Info.plist"; sourceTree = "<group>"; };
 		DCFD833117E50D9B00E6F7F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DCFD833317E50D9B00E6F7F9 /* GameJam2013Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameJam2013Tests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,8 +141,8 @@
 		DCFD82FF17E50D9B00E6F7F9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DCFD82FE17E50D9B00E6F7F9 /* GameJam2013.app */,
-				DCFD832617E50D9B00E6F7F9 /* GameJam2013Tests.xctest */,
+				DCFD82FE17E50D9B00E6F7F9 /* Space Jam.app */,
+				DCFD832617E50D9B00E6F7F9 /* Space JamTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,12 +164,34 @@
 			children = (
 				DCFD831217E50D9B00E6F7F9 /* HBHAppDelegate.h */,
 				DCFD831317E50D9B00E6F7F9 /* HBHAppDelegate.m */,
-				DCFD831517E50D9B00E6F7F9 /* Main.storyboard */,
 				DCFD831817E50D9B00E6F7F9 /* HBHViewController.h */,
 				DCFD831917E50D9B00E6F7F9 /* HBHViewController.m */,
-				DCFD831B17E50D9B00E6F7F9 /* HBHMyScene.h */,
-				DCFD831C17E50D9B00E6F7F9 /* HBHMyScene.m */,
-				DCFD831E17E50D9B00E6F7F9 /* Spaceship.png */,
+				DCFD831B17E50D9B00E6F7F9 /* HBHScene.h */,
+				DCFD831C17E50D9B00E6F7F9 /* HBHScene.m */,
+				DC0E2DEA17E6150E0000E06D /* HBHHighScoreScene.h */,
+				DC0E2DEB17E6150E0000E06D /* HBHHighScoreScene.m */,
+				DC0E2DE317E606440000E06D /* HBHMenuScene.h */,
+				DC0E2DE417E606440000E06D /* HBHMenuScene.m */,
+				DC0E2DD017E578260000E06D /* HBHDiamondNode.h */,
+				DC0E2DD117E578260000E06D /* HBHDiamondNode.m */,
+				DC0E2DD817E5919E0000E06D /* HBHAdderallPowerUpNode.h */,
+				DC0E2DD917E5919E0000E06D /* HBHAdderallPowerUpNode.m */,
+				DC0E2DD517E57F450000E06D /* HBHPowerUp.h */,
+				DC0E2DD617E57F450000E06D /* HBHPowerUp.m */,
+				DC0E2DCB17E538030000E06D /* HBHCopShipNode.h */,
+				DC0E2DCC17E538030000E06D /* HBHCopShipNode.m */,
+				DC0E2DC617E517870000E06D /* HBHStarNode.h */,
+				DC0E2DC717E517870000E06D /* HBHStarNode.m */,
+				DC0E2DC017E511EA0000E06D /* HBHShipNode.h */,
+				DC0E2DC117E511EA0000E06D /* HBHShipNode.m */,
+				DC0E2DE117E5FFD20000E06D /* adderall.png */,
+				DC0E2DDF17E5FDC80000E06D /* money.png */,
+				DC0E2DD317E57ABA0000E06D /* diamond.png */,
+				DC0E2DED17E6298A0000E06D /* BackgroundLoop.mp3 */,
+				DC0E2DCE17E53A420000E06D /* shadow.png */,
+				DC0E2DDB17E5F9490000E06D /* jerome.png */,
+				DC0E2DDD17E5FB100000E06D /* heisenberg.png */,
+				DC0E2DE617E60A010000E06D /* joystixmonospace.otf */,
 				DCFD832017E50D9B00E6F7F9 /* Images.xcassets */,
 				DCFD830A17E50D9B00E6F7F9 /* Supporting Files */,
 			);
@@ -138,10 +201,13 @@
 		DCFD830A17E50D9B00E6F7F9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DCFD830B17E50D9B00E6F7F9 /* GameJam2013-Info.plist */,
+				DC0E2DE817E611660000E06D /* scores.plist */,
+				DC0E2DC317E512DE0000E06D /* SKNode+Positioning.h */,
+				DC0E2DC417E512EB0000E06D /* SKNode+Positioning.m */,
+				DCFD830B17E50D9B00E6F7F9 /* Space Jam-Info.plist */,
 				DCFD830C17E50D9B00E6F7F9 /* InfoPlist.strings */,
 				DCFD830F17E50D9B00E6F7F9 /* main.m */,
-				DCFD831117E50D9B00E6F7F9 /* GameJam2013-Prefix.pch */,
+				DCFD831117E50D9B00E6F7F9 /* Space Jam-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -158,7 +224,7 @@
 		DCFD832E17E50D9B00E6F7F9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DCFD832F17E50D9B00E6F7F9 /* GameJam2013Tests-Info.plist */,
+				DCFD832F17E50D9B00E6F7F9 /* Space JamTests-Info.plist */,
 				DCFD833017E50D9B00E6F7F9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -167,9 +233,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DCFD82FD17E50D9B00E6F7F9 /* GameJam2013 */ = {
+		DCFD82FD17E50D9B00E6F7F9 /* Space Jam */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCFD833717E50D9B00E6F7F9 /* Build configuration list for PBXNativeTarget "GameJam2013" */;
+			buildConfigurationList = DCFD833717E50D9B00E6F7F9 /* Build configuration list for PBXNativeTarget "Space Jam" */;
 			buildPhases = (
 				DCFD82FA17E50D9B00E6F7F9 /* Sources */,
 				DCFD82FB17E50D9B00E6F7F9 /* Frameworks */,
@@ -179,14 +245,14 @@
 			);
 			dependencies = (
 			);
-			name = GameJam2013;
+			name = "Space Jam";
 			productName = GameJam2013;
-			productReference = DCFD82FE17E50D9B00E6F7F9 /* GameJam2013.app */;
+			productReference = DCFD82FE17E50D9B00E6F7F9 /* Space Jam.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DCFD832517E50D9B00E6F7F9 /* GameJam2013Tests */ = {
+		DCFD832517E50D9B00E6F7F9 /* Space JamTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCFD833A17E50D9B00E6F7F9 /* Build configuration list for PBXNativeTarget "GameJam2013Tests" */;
+			buildConfigurationList = DCFD833A17E50D9B00E6F7F9 /* Build configuration list for PBXNativeTarget "Space JamTests" */;
 			buildPhases = (
 				DCFD832217E50D9B00E6F7F9 /* Sources */,
 				DCFD832317E50D9B00E6F7F9 /* Frameworks */,
@@ -197,9 +263,9 @@
 			dependencies = (
 				DCFD832C17E50D9B00E6F7F9 /* PBXTargetDependency */,
 			);
-			name = GameJam2013Tests;
+			name = "Space JamTests";
 			productName = GameJam2013Tests;
-			productReference = DCFD832617E50D9B00E6F7F9 /* GameJam2013Tests.xctest */;
+			productReference = DCFD832617E50D9B00E6F7F9 /* Space JamTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -217,7 +283,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DCFD82F917E50D9B00E6F7F9 /* Build configuration list for PBXProject "GameJam2013" */;
+			buildConfigurationList = DCFD82F917E50D9B00E6F7F9 /* Build configuration list for PBXProject "Space Jam" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -230,8 +296,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DCFD82FD17E50D9B00E6F7F9 /* GameJam2013 */,
-				DCFD832517E50D9B00E6F7F9 /* GameJam2013Tests */,
+				DCFD82FD17E50D9B00E6F7F9 /* Space Jam */,
+				DCFD832517E50D9B00E6F7F9 /* Space JamTests */,
 			);
 		};
 /* End PBXProject section */
@@ -241,10 +307,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC0E2DE217E5FFD20000E06D /* adderall.png in Resources */,
 				DCFD830E17E50D9B00E6F7F9 /* InfoPlist.strings in Resources */,
+				DC0E2DE017E5FDC80000E06D /* money.png in Resources */,
+				DC0E2DDE17E5FB100000E06D /* heisenberg.png in Resources */,
+				DC0E2DD417E57ABA0000E06D /* diamond.png in Resources */,
+				DC0E2DE717E60A010000E06D /* joystixmonospace.otf in Resources */,
 				DCFD832117E50D9B00E6F7F9 /* Images.xcassets in Resources */,
-				DCFD831F17E50D9B00E6F7F9 /* Spaceship.png in Resources */,
-				DCFD831717E50D9B00E6F7F9 /* Main.storyboard in Resources */,
+				DC0E2DEE17E6298A0000E06D /* BackgroundLoop.mp3 in Resources */,
+				DC0E2DDC17E5F9490000E06D /* jerome.png in Resources */,
+				DC0E2DCF17E53A420000E06D /* shadow.png in Resources */,
+				DC0E2DE917E611660000E06D /* scores.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +336,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC0E2DC217E511EA0000E06D /* HBHShipNode.m in Sources */,
+				DC0E2DD717E57F450000E06D /* HBHPowerUp.m in Sources */,
+				DC0E2DE517E606440000E06D /* HBHMenuScene.m in Sources */,
+				DC0E2DCD17E538030000E06D /* HBHCopShipNode.m in Sources */,
+				DC0E2DEC17E6150E0000E06D /* HBHHighScoreScene.m in Sources */,
 				DCFD831017E50D9B00E6F7F9 /* main.m in Sources */,
-				DCFD831D17E50D9B00E6F7F9 /* HBHMyScene.m in Sources */,
+				DCFD831D17E50D9B00E6F7F9 /* HBHScene.m in Sources */,
+				DC0E2DC517E512EB0000E06D /* SKNode+Positioning.m in Sources */,
+				DC0E2DD217E578260000E06D /* HBHDiamondNode.m in Sources */,
+				DC0E2DC817E517870000E06D /* HBHStarNode.m in Sources */,
 				DCFD831A17E50D9B00E6F7F9 /* HBHViewController.m in Sources */,
 				DCFD831417E50D9B00E6F7F9 /* HBHAppDelegate.m in Sources */,
+				DC0E2DDA17E5919E0000E06D /* HBHAdderallPowerUpNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +365,7 @@
 /* Begin PBXTargetDependency section */
 		DCFD832C17E50D9B00E6F7F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DCFD82FD17E50D9B00E6F7F9 /* GameJam2013 */;
+			target = DCFD82FD17E50D9B00E6F7F9 /* Space Jam */;
 			targetProxy = DCFD832B17E50D9B00E6F7F9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -295,14 +377,6 @@
 				DCFD830D17E50D9B00E6F7F9 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		DCFD831517E50D9B00E6F7F9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DCFD831617E50D9B00E6F7F9 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		DCFD833017E50D9B00E6F7F9 /* InfoPlist.strings */ = {
@@ -396,9 +470,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GameJam2013/GameJam2013-Prefix.pch";
-				INFOPLIST_FILE = "GameJam2013/GameJam2013-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "GameJam2013/Space Jam-Prefix.pch";
+				INFOPLIST_FILE = "GameJam2013/Space Jam-Info.plist";
+				PRODUCT_NAME = "Space Jam";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -410,9 +484,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GameJam2013/GameJam2013-Prefix.pch";
-				INFOPLIST_FILE = "GameJam2013/GameJam2013-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "GameJam2013/Space Jam-Prefix.pch";
+				INFOPLIST_FILE = "GameJam2013/Space Jam-Info.plist";
+				PRODUCT_NAME = "Space Jam";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -434,8 +508,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "GameJam2013Tests/GameJam2013Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "GameJam2013Tests/Space JamTests-Info.plist";
+				PRODUCT_NAME = "Space JamTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -453,8 +527,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GameJam2013/GameJam2013-Prefix.pch";
-				INFOPLIST_FILE = "GameJam2013Tests/GameJam2013Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "GameJam2013Tests/Space JamTests-Info.plist";
+				PRODUCT_NAME = "Space JamTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -463,7 +537,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DCFD82F917E50D9B00E6F7F9 /* Build configuration list for PBXProject "GameJam2013" */ = {
+		DCFD82F917E50D9B00E6F7F9 /* Build configuration list for PBXProject "Space Jam" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCFD833517E50D9B00E6F7F9 /* Debug */,
@@ -472,21 +546,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DCFD833717E50D9B00E6F7F9 /* Build configuration list for PBXNativeTarget "GameJam2013" */ = {
+		DCFD833717E50D9B00E6F7F9 /* Build configuration list for PBXNativeTarget "Space Jam" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCFD833817E50D9B00E6F7F9 /* Debug */,
 				DCFD833917E50D9B00E6F7F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		DCFD833A17E50D9B00E6F7F9 /* Build configuration list for PBXNativeTarget "GameJam2013Tests" */ = {
+		DCFD833A17E50D9B00E6F7F9 /* Build configuration list for PBXNativeTarget "Space JamTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCFD833B17E50D9B00E6F7F9 /* Debug */,
 				DCFD833C17E50D9B00E6F7F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

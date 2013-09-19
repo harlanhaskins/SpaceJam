@@ -13,4 +13,6 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import "SKNode+Positioning.h"
+    #define topZPosition 1.0f
 #endif

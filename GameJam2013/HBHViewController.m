@@ -7,25 +7,31 @@
 //
 
 #import "HBHViewController.h"
-#import "HBHMyScene.h"
 
-@implementation HBHViewController
+@implementation HBHViewController {
+    SKView * skView;
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 
+    
+    
     // Configure the view.
-    SKView * skView = (SKView *)self.view;
-    skView.showsFPS = YES;
-    skView.showsNodeCount = YES;
+    skView = [[SKView alloc] initWithFrame:[self flippedBounds]];
+    skView.showsFPS =
+    skView.showsNodeCount = NO;
     
     // Create and configure the scene.
-    SKScene * scene = [HBHMyScene sceneWithSize:skView.bounds.size];
+    HBHMenuScene * scene = [HBHMenuScene sceneWithSize:skView.bounds.size];
     scene.scaleMode = SKSceneScaleModeAspectFill;
+    
+    scene.delegate = self;
     
     // Present the scene.
     [skView presentScene:scene];
+    [self.view addSubview:skView];
 }
 
 - (BOOL)shouldAutorotate
@@ -46,6 +52,22 @@
 {
     [super didReceiveMemoryWarning];
     // Release any cached data, images, etc that aren't in use.
+}
+
+- (CGRect) flippedBounds {
+    CGRect bounds = [[UIScreen mainScreen] bounds]; // portrait bounds
+    if (UIInterfaceOrientationIsLandscape([[UIApplication sharedApplication] statusBarOrientation])) {
+        bounds.size = CGSizeMake(bounds.size.height, bounds.size.width);
+    }
+    return bounds;
+}
+
+- (void) resetGame {
+    HBHMenuScene * scene = [HBHMenuScene sceneWithSize:skView.bounds.size];
+    scene.scaleMode = SKSceneScaleModeAspectFill;
+    scene.delegate = self;
+    
+    [skView presentScene:scene transition:[SKTransition pushWithDirection:SKTransitionDirectionRight duration:0.5f]];
 }
 
 @end

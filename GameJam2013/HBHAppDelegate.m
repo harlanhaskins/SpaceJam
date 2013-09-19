@@ -6,13 +6,45 @@
 //  Copyright (c) 2013 Haskins. All rights reserved.
 //
 
+#import "HBHViewController.h"
 #import "HBHAppDelegate.h"
 
 @implementation HBHAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    HBHViewController *viewController = [[HBHViewController alloc] init];
+    CGRect rect = [UIScreen mainScreen].bounds;
+    self.window = [[UIWindow alloc] initWithFrame:rect];
+    self.window.rootViewController = viewController;
+    [self.window makeKeyAndVisible];
+    
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+    NSString *writableDBPath = [documentsDirectory stringByAppendingPathComponent:@"scores.plist"];
+    
+    if (![[NSFileManager defaultManager] fileExistsAtPath:writableDBPath]) {
+        NSArray *array = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"scores" ofType:@"plist"]];
+        [array writeToFile:writableDBPath atomically:YES];
+    }
+    
+    
+    // List all fonts on iPhone
+//    NSArray *familyNames = [[NSArray alloc] initWithArray:[UIFont familyNames]];
+//    NSArray *fontNames;
+//    NSInteger indFamily, indFont;
+//    for (indFamily=0; indFamily<[familyNames count]; ++indFamily)
+//    {
+//        NSLog(@"Family name: %@", [familyNames objectAtIndex:indFamily]);
+//        fontNames = [[NSArray alloc] initWithArray:
+//                     [UIFont fontNamesForFamilyName:
+//                      [familyNames objectAtIndex:indFamily]]];
+//        for (indFont=0; indFont<[fontNames count]; ++indFont)
+//        {
+//            NSLog(@"    Font name: %@", [fontNames objectAtIndex:indFont]);
+//        }
+//    }
+    
     return YES;
 }
 							
